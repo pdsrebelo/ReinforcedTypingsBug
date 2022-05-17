@@ -57,8 +57,7 @@
 			Disables Reinforced.Typings generation on build. Use it when it is necessary to temporary disable
 			typings generation.
 		-->
-		<RtDisable Condition="'$(Configuration)'=='Debug'">false</RtDisable>
-		<RtDisable Condition="'$(Configuration)'=='Release'">true</RtDisable>
+		<RtDisable>false</RtDisable>
 
 		<!--
 			Forces RT to use specified target framework.
